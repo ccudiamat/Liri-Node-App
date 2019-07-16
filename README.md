@@ -1,6 +1,16 @@
 # Liri-Node-App
 This is my version of the LIRI Node App.
 
+LIRI is a CLI app in which it takes in a user input and lists the result, based on their search action. The choices of actions are:
+
+1) movie-this <user-input>
+
+2) spotify-this song <user-input>
+
+3) concert-this <user-input>
+
+4) do-what-it-says
+
 movie-this (with user input)
 ![movie-this](/screenshots/movie-this-user.png)
 
@@ -18,3 +28,17 @@ concert-this
 
 do-what-it-says
 ![do-what-it-says](/screenshots/do-what-it-says.png)
+
+
+Technologies used:
+Node.js
+Javascript
+
+npm Packages:
+axios
+dotenv
+moment
+node-spotify-api
+
+Author:
+Christopher Cudiamat

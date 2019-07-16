@@ -8,7 +8,7 @@ movie-this (when user input is undefined)
 ![movie-this-undefined](/screenshots/movie-this-undefined.png)
 
 spotify-this-song (with user input)
-![spotify-this](/screenshots/spotify-this-song-user.png)
+![spotify-this](/screenshots/spotify-this-song.png)
 
 spotify-this-song (when user input is undefined)
 ![spotify-this-undefined](/screenshots/spotify-this-song-undefined.png)

@@ -25,10 +25,10 @@ function runCommand(action, input1) {
         // * SPOTIFY *
         case "spotify-this-song":
             var name = input1;
-            if (!name || !name.trim()) {
-                return console.log("You must provide a song to search.")
+            if (name === undefined) {
+                name = "The Sign Ace"
             }
-            songThis(name.trim().toLowerCase());
+            songThis(name);
             break;
         // * MOVIE *
         case "movie-this":
